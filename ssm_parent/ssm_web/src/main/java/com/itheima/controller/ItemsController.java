@@ -24,6 +24,7 @@ public class ItemsController {
 
     @GetMapping("/findAll")
     public String findByAll(Model model){
+		System.out.println("Hello world");
         // model 数据模型
         List<Items> items = itemsService.findAll();
         // 塞给页面
