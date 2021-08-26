@@ -27,6 +27,7 @@ public class ItemsController {
 		System.out.println("Hello wo刘邦项羽的爱情故事rld");
 		System.out.println("九州风云录，海上牧云记");
 		System.out.println("三国志不是三国演义");
+
         // model 数据模型
         List<Items> items = itemsService.findAll();
         // 塞给页面
